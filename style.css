@@ -1,0 +1,75 @@
+
+body {
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/008/023/852/small/abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg");
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(100, 0, 0, 0.7);
+    padding-top: 20px;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main {
+    margin-left: 260px;
+    padding: 20px;
+    color: white;
+}
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: red;
+}
